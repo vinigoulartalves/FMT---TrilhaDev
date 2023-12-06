@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estruturas de Repetição e CSS</title>
+    <style>
+        body {
+            background-color: rgb(242, 65, 95);
+        }
+        /* h1 {
+            color: rgb(255, 0, 0);           
+        } */
+        
+        #titulo {
+            color: rgb(225, 255, 0);
+            font-family: Verdana, Geneva, Tahoma, sans-serif
+        }
+
+        .titulo {
+            color: rgb(98, 0, 255);
+        }
+        
+        .paragrafo {
+            color: rgb(0, 247, 255);
+        }
+
+        .bloco {
+            width: 200px;
+            padding: 10px 20px 10px 20px;
+            margin: 10px 10px 10px 10px;
+            border-radius: 10px;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            border: 5px solid red;
+            
+        }
+
+        .link {
+            text-decoration: none;
+            color: black;
+        }
+
+        .botao {
+            color: white;
+            padding: 5px 10px;
+            background-color: green;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+
+        .botao:hover {
+            background-color: blue;
+            transition: 1s ease-in-out;
+            transform: scaleX(1.1);
+        }
+
+
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 style="color:blue">Introdução ao CSS - Aula 05</h1> -->
+    <h1 id="titulo">Introdução ao CSS - Aula 05</h1>
+    <h1 class="titulo">Introdução ao CSS - Aula 05</h1>
+
+    <p class="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, natus, optio minima doloremque, quisquam libero est architecto cum laborum quod hic sed nostrum illum qui vero magnam modi sequi ipsa?</p>
+    
+    <p class="bloco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, natus, optio minima doloremque, quisquam libero est architecto cum laborum quod hic sed nostrum illum qui vero magnam modi sequi ipsa?</p>
+
+    <p class="bloco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, natus, optio minima doloremque, quisquam libero est architecto cum laborum quod hic sed nostrum illum qui vero magnam modi sequi ipsa?</p>
+
+    <p class="bloco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, natus, optio minima doloremque, quisquam libero est architecto cum laborum quod hic sed nostrum illum qui vero magnam modi sequi ipsa?</p>
+
+    <a class="link" href="https://www.linkedin.com/in/vinigoulartalves/">LinkedIn</a>
+    
+    <br />
+    
+    <button class="botao">Cadastrar</button>
+
+    
+    <script src="script.js"></script>
+    <script>
+        // let contador = 10
+        
+        // // Estrutura while
+        // // while ( contador <= 10 ) {      
+
+	    // //     console.log('Loop número', contador)
+
+	    // //     contador += 1
+        // //     // contador ++
+        // //     // contador = contador + 1
+
+        // // }
+
+        // //do while
+        // do {
+        //     console.log('Loop número', contador)
+
+        //     contador += 1   
+        // } while (contador <= 10)
+
+        //Estrutura do/while
+        // let resultado = true
+        // let soma = 0
+            
+        // do {
+        //     soma += Number(prompt("Digite um número: "))
+        //     let resposta = prompt("Você quer continuar? s/n")
+            
+        //     if (resposta !== "s") {
+        //         resultado = false
+        //     }
+        // } while (resultado)
+
+        // alert(`A soma dos número é: ${soma}`)
+
+        // //Estrutura For
+        // for ( let contador = 0; contador <= 10; contador++ ) { 
+
+        // console.log("Loop número", contador)
+
+        // }
+    </script>
+</body>
+</html>
